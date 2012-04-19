@@ -1,0 +1,321 @@
+/* @group reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* @end */
+
+body {
+	
+	/*background-color: rgb(47, 56, 66);*/
+	background-image: url(bg.png);
+}
+
+#all_wrapper {
+	background-color: white;
+	border: 1px solid #333;
+	border-left: none;
+	width: 1000px;
+	margin: 0px auto;
+	box-shadow: 3px 6px 0px #ba5555;
+	opacity: 1;
+}
+
+#top_header{
+	width: 960px;
+	height: 150px;
+	background-color: rgb(186, 85, 85);
+	margin: 18px;
+	border-left: 8px solid rgba(0, 0, 0, 0.15);
+	border-top: 8px solid rgba(0, 0, 0, 0.15);
+/*	box-shadow: 8px 8px 6px rgba(131, 123, 123, 0.52);*/
+}
+
+#logo {
+	width: 500px;
+	height: 100px;
+	position: relative;
+	top: 40px;
+	padding-left: 20px;
+	font: 100px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #ffffff;
+/*	font: bold 90px "Snell Roundhand";*/
+	font: 90px 'Norican', cursive;;
+/*	font: 80px Georgia;*/
+/*	text-shadow: 1px 1px 10px rgba(247, 245, 245, 0.43);*/
+	text-shadow: 5px 5px 2px rgba(69, 65, 65, 0.59);
+}
+
+#logo a:visited {
+	text-decoration: none;
+	color: #ffffff;
+	white-space: nowrap;
+}
+
+#header_nav {
+	width: 300px;
+	height: 100px;
+	margin: 0px;
+	float: right;
+	position: relative;
+	bottom: 10px;
+	right: 200px;
+}
+
+#nav_list0 {
+	float: left;
+	font: 12px Arial;
+	text-align: left;
+	color: #ffffff;
+	border-left: 3px solid #ffffff;
+	padding-left: 5px;
+}
+
+#nav_list0 #nav_list1 li{
+	margin: 4px;
+}
+
+
+#nav_list1 {
+	float: right;
+	font: 12px Arial;
+	color: #ffffff;
+	border-left: 3px solid #ffffff;
+	padding-left: 5px;
+}
+
+
+
+/* @group aside */
+#side {
+	float: right;
+	width:230px
+}
+/* @group section */
+
+
+
+
+section {
+	width: 700px;
+	height: 1350px;
+	margin-left: 18px;
+	float: left;
+	}
+	
+article {
+/*	border: 1px solid #333;*/
+	margin: 5px;
+}	
+	
+article h1 {
+	color: white;
+	background-color: black;
+	padding-left: 5px;
+	font: 13px/20px Verdana;
+}
+
+article h2 {
+	color: #cc3300;
+	padding: 5px 5px 15px;
+	font: bold 16px Verdana;
+}	
+
+article img {
+	float: left;
+	margin-right: 20px;
+}
+
+article footer {
+	font: italic 15px/20px "Minion Pro";
+	color: #6c6969;
+}
+
+#content1 {
+	font: 18px "Minion Pro";
+}
+
+#content2 {
+		font: bold 16px Verdana;
+}
+
+#content3 {
+	margin-top: 10px;
+	font: italic 15px/20px "Minion Pro";
+	
+}
+
+article a {
+	color: #cc3333;
+}
+/* @end */
+
+
+#side {
+	float: left;
+	margin-left: 10px;
+}
+
+#date {
+	width: 30px;
+	float: left;
+	text-align: center;
+	font: bold 10px sans-serif;
+	text-transform: uppercase;
+	color: #999;
+}
+
+aside h4 {
+	display: block;
+	float: left;
+	padding-right: 8px;
+	padding-left: 8px;
+	background-color: white;
+	margin-top: 10px;
+	font: bold 13px Arial;
+	margin-left: 6px;
+}
+
+aside p {
+	width: 245px;
+/*	border: 2px solid #4f3a3a;*/
+	margin-top: 50px;
+	font: 13px/18px sans-serif;
+}
+
+#ii {
+	font: italic 14px ""Minion;
+}
+
+
+
+
+/* @group site footer */
+#site_footer {
+/*	background-color: rgb(47, 56, 66);*/
+	background-image: url(bg.png);	
+	height: 300px;
+	color: #ffffff;
+	clear: both;
+}
+
+#footer_nav {
+	background-color: #ba5555;
+	padding: 3px;
+	text-align: center;
+	margin-top: 3px;
+	font: 11px Arial;
+	
+}
+
+#footer_nav a{
+	text-decoration: none;
+	margin-left: 10px;
+	color: #ffffff;
+}
+
+#footer_logo {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	margin-top: 30px;
+	border-right: 1px solid rgba(149, 155, 156, 0.58);
+	float: left;
+}
+
+#footer_logo a {
+	text-decoration: none;
+	color: #9fa4a5;
+	font: 40px Georgia;
+	text-shadow: 1px 1px 10px rgba(159, 164, 165, 0);
+	
+}
+
+#Latest_topics, #footer_comments {
+	width: 200px;
+/*	border: 2px solid #5d0909;*/
+	float: left;
+	color: rgba(186, 85, 85, 0.86);
+	font: 10px Verdana;
+	margin-top: 40px;
+	margin-left: 30px;
+	padding-right: 15px;
+	border-right: 1px solid rgba(149, 155, 156, 0.58);
+}
+
+#Latest_topics h2, #footer_comments h2, #about_us h2 {
+	font: bold 16px/30px Verdana;	
+}
+
+#Latest_topics ul, #footer_comments ul, #about_us ul {
+	line-height: 20px;
+	list-style: inside;
+	color: rgba(180, 116, 116, 0.71);
+	text-align: left;
+}
+
+#footer_comments ul span {
+	font-weight: bold;
+	font-size: 12px;
+}
+
+#about_us {
+	width: 200px;
+	float:left;
+	color: rgba(186, 85, 85, 0.86);
+	font: 13px Verdana;
+	margin-top: 40px;
+	margin-left: 50px;
+	padding-right: 15px;
+}
+
+#about_us p {
+/*	font: 15px "Casual";*/
+	text-align: left;
+	color: rgba(180, 116, 116, 0.71);	
+}
+
+/* @end */
